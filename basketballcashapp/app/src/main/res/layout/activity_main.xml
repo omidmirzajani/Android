@@ -159,19 +159,27 @@
             android:layout_below="@id/logInAsAdmin"
             />
 
+<!--        <com.google.android.gms.ads.AdView-->
+<!--            xmlns:ads="http://schemas.android.com/apk/res-auto"-->
+<!--            android:id="@+id/adView"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:layout_alignParentBottom="true"-->
+<!--            android:layout_below="@id/ShowScoreboard"-->
+<!--            android:layout_alignRight="@id/logInAsAdmin"-->
+<!--            android:layout_alignLeft="@id/logInAsAdmin"-->
+<!--            ads:adSize="BANNER"-->
+<!--            ads:adUnitId="ca-app-pub-2266566715001269/7038255952">-->
+<!--        </com.google.android.gms.ads.AdView>-->
         <com.google.android.gms.ads.AdView
-            xmlns:ads="http://schemas.android.com/apk/res-auto"
-            android:id="@+id/adView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
+            android:id="@+id/ad_view1"
             android:layout_alignParentBottom="true"
-            android:layout_below="@id/ShowScoreboard"
-            android:layout_alignRight="@id/logInAsAdmin"
-            android:layout_alignLeft="@id/logInAsAdmin"
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
             ads:adSize="BANNER"
-            ads:adUnitId="ca-app-pub-2266566715001269/7038255952">
-        </com.google.android.gms.ads.AdView>
-
+            ads:adUnitId="ca-app-pub-2266566715001269/5338161475"
+            />
     </RelativeLayout>
 </RelativeLayout>

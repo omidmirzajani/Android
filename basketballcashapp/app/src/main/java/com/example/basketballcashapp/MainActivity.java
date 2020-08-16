@@ -18,6 +18,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.InterstitialAd;
 import com.google.android.gms.ads.MobileAds;
 import com.google.firebase.database.ChildEventListener;
 import com.google.firebase.database.DataSnapshot;
@@ -180,10 +181,10 @@ public class MainActivity extends AppCompatActivity {
 //            public void onInitializationComplete(InitializationStatus initializationStatus) {
 //            }
 //        });
-        mAdView = findViewById(R.id.adView);
+        mAdView = findViewById(R.id.ad_view1);
+        MobileAds.initialize(this , "ca-app-pub-2266566715001269~1590488152");
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);
-
 
     }
     public void UsersClicked(View view){

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/curry" />
+    <ImageView
+        android:onClick="BackIconClicked"
+        android:id="@+id/backIconnnn"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:src="@drawable/ic_baseline_keyboard_backspace_24"/>
+    <EditText
+        android:layout_toRightOf="@id/backIconnnn"
+        android:visibility="invisible"
+        android:id="@+id/nullEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/button"
+        android:gravity="center"
+        android:hint="Username" />
+    <EditText
+        android:layout_below="@id/nullEditText"
+        android:id="@+id/UsernameOfAdminEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/button"
+        android:gravity="center"
+        android:hint="Username" />
+    <EditText
+        android:layout_below="@id/UsernameOfAdminEditText"
+        android:id="@+id/PasswordOfAdminEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/button"
+        android:gravity="center"
+        android:hint="Password" />
+    <Button
+        android:onClick="SignInAdminClicked"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/PasswordOfAdminEditText"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/signinbutton"
+        android:text="Sign in"/>
+</RelativeLayout>

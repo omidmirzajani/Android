@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "851912413971",
+    "firebase_url": "https://basketballcashapp.firebaseio.com",
+    "project_id": "basketballcashapp",
+    "storage_bucket": "basketballcashapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:851912413971:android:6e368632e66ada6bf400e6",
+        "android_client_info": {
+          "package_name": "com.example.basketballcashapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "851912413971-nomdjb18p9901u5kg891m2sd9l5fmrcu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmSB9GcAHG7-Lg9138VbrjKDvkflD2WmQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "851912413971-nomdjb18p9901u5kg891m2sd9l5fmrcu.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "851912413971-m445sfj3n0auo5qvgheldu99d6797l46.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.basketballcashapp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

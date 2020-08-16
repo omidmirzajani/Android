@@ -173,6 +173,9 @@
 <!--            ads:adUnitId="ca-app-pub-2266566715001269/7038255952">-->
 <!--        </com.google.android.gms.ads.AdView>-->
         <com.google.android.gms.ads.AdView
+            android:layout_below="@id/ShowScoreboard"
+            android:layout_alignLeft="@id/ShowScoreboard"
+            android:layout_alignRight="@id/ShowScoreboard"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/ad_view1"

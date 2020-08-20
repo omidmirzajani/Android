@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+android:layout_height="match_parent">
+    <ImageView
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/kevin_final"/>
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:onClick="BackIconClicked"
+        android:id="@+id/backIconnnn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_baseline_keyboard_backspace_24_white"/>
+    <Button
+        android:onClick="StartGame"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Start Game"
+        android:background="@drawable/signinbutton"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@id/backIconnnn"
+        android:layout_alignBottom="@id/backIconnnn"/>
+
+    <ListView
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/backIconnnn"
+        android:id="@+id/simpleListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

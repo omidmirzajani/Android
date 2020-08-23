@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "705200908717",
+    "firebase_url": "https://basketballquestionapp.firebaseio.com",
+    "project_id": "basketballquestionapp",
+    "storage_bucket": "basketballquestionapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:705200908717:android:7af16c59bfceb112fcd924",
+        "android_client_info": {
+          "package_name": "dimo.basketballcashapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "705200908717-hdb9tfek025mhi5233lcof65rgro3hgp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFvrQttdOlkPyKdmHO-zzR3NbsRgFzfTQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "705200908717-hdb9tfek025mhi5233lcof65rgro3hgp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

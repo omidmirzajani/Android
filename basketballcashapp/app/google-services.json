@@ -1,35 +1,42 @@
 {
   "project_info": {
-    "project_number": "705200908717",
-    "firebase_url": "https://basketballquestionapp.firebaseio.com",
-    "project_id": "basketballquestionapp",
-    "storage_bucket": "basketballquestionapp.appspot.com"
+    "project_number": "851912413971",
+    "firebase_url": "https://basketballcashapp.firebaseio.com",
+    "project_id": "basketballcashapp",
+    "storage_bucket": "basketballcashapp.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:705200908717:android:7af16c59bfceb112fcd924",
+        "mobilesdk_app_id": "1:851912413971:android:a95b7e8ed5425fe9f400e6",
         "android_client_info": {
           "package_name": "dimo.basketballcashapp"
         }
       },
       "oauth_client": [
         {
-          "client_id": "705200908717-hdb9tfek025mhi5233lcof65rgro3hgp.apps.googleusercontent.com",
+          "client_id": "851912413971-nomdjb18p9901u5kg891m2sd9l5fmrcu.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDFvrQttdOlkPyKdmHO-zzR3NbsRgFzfTQ"
+          "current_key": "AIzaSyCmSB9GcAHG7-Lg9138VbrjKDvkflD2WmQ"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "705200908717-hdb9tfek025mhi5233lcof65rgro3hgp.apps.googleusercontent.com",
+              "client_id": "851912413971-nomdjb18p9901u5kg891m2sd9l5fmrcu.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "851912413971-m445sfj3n0auo5qvgheldu99d6797l46.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "dimo.basketballcashapp"
+              }
             }
           ]
         }
